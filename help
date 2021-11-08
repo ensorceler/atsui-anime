@@ -1,0 +1,15 @@
+atsui-anime
+
+
+version 1.0.0
+
+atsui-anime search "string"
+atsui-anime search -id "ID"
+
+
+atsui-anime season 
+
+atsui-anime season -y year -s season
+
+atsui-anime getinfo "ID"
+
