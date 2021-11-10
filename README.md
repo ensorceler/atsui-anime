@@ -34,6 +34,10 @@ atsui-anime getseason --year 2019 --season winter
 ```
 atsui-anime getanime 16498
 ```
+6. Limit your searches with -l option (default is 5 for searches , 20 for seasonal anime):
+```
+atsui-anime search Naruto -l 10 
+```
 
 ### Installation
 
@@ -63,9 +67,14 @@ npm link
 now you can use this package and use the CLI anywhere you wish 
 
 
+## Screenshots
+![Imgur](https://imgur.com/Asi4tyg.png)
+
+![Imgur](https://imgur.com/Je2yOjk.png)
+
+
 ## Authors
 
 - [@ensorceler](https://www.github.com/ensorceler)
-
 
 
