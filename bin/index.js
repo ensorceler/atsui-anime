@@ -1,9 +1,10 @@
+#!/usr/bin/env node
 import { program } from "commander";
-import searchAnime from "./components/searchAnime";
-import seasonalAnime, { parseOptions } from "./components/seasonalAnime";
-import getAnime from "./components/getAnime";
+import searchAnime from "./components/searchAnime.js";
+import seasonalAnime, { parseOptions } from "./components/seasonalAnime.js";
+import getAnime from "./components/getAnime.js";
 import figlet from "figlet";
-import lolcatjs from "./config/lolcatConfig";
+import lolcatjs from "./config/lolcatConfig.js";
 // banner statement
 lolcatjs.fromString(figlet.textSync("Atsui-Anime", {
     font: "Slant",
